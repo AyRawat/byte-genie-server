@@ -1,0 +1,248 @@
+,Industry,Cluster,LDA Topic
+0,Financial Services,2,10
+1,IT Services and IT Consulting,2,5
+2,Maritime Transportation,3,2
+3,Maritime,3,0
+4,Staffing and Recruiting,3,0
+5,"Commercial & Residential Construction,  Construction",3,13
+6,Telecommunications,3,0
+7,Manufacturing,6,8
+8,Information Technology & Services,2,12
+9,Software Development,5,9
+10,"Software Development,  Finance General,  Regulatory Reporting,  Finance,  EMIR,  REMIT,  MiFID II,  StromVV,  FinfraG,  MAR,  Market Surveillance,  Data Analysis,  Interfaces to Exchanges & Brokers,  SFTR,  MiFIR",5,10
+11,International Trade and Development,5,9
+12,"Education Administration Programs,  Colleges & Universities,  Education",7,11
+13,"Motor Vehicle Manufacturing,  Manufacturing General,  Automotive,  Cars,  Manufacturing,  Transportation,  Performance,  Electric Vehicle,  Event,  Mechanical Engineering,  Science and Engineering",6,8
+14,"Business Services General,  Fleet Management,  Business Services,  Vessel Monitoring,  Vessel Tracking,  SSAS (Ship Secuirty Alert Systems),  LRIT Data Centre/ASP services,  LRIT testing services",2,12
+15,"Financial Services,  Finance,  Finance General,  Other Capital Markets/Institutions",3,10
+16,Mining,3,0
+17,Wholesale Import and Export,3,0
+18,Oil and Gas,3,0
+19,Aviation and Aerospace Component Manufacturing,6,8
+20,Defense and Space Manufacturing,6,5
+21,Industrial Machinery Manufacturing,6,8
+22,Real Estate,3,11
+23,"Manufacturing,  Defense and Space Manufacturing",6,5
+24,E-Learning Providers,3,6
+25,"Higher Education,  Colleges & Universities,  Education",7,11
+26,Government Administration,3,14
+27,"Appliances, Electrical, and Electronics Manufacturing",3,8
+28,"Metals & Mining General,  Metals & Mining",3,6
+29,Book and Periodical Publishing,3,14
+30,"Transportation, Logistics, Supply Chain and Storage",3,2
+31,"Retail,  Medical Equipment Manufacturing,  Monitoring Equipment,  Diagnostic Equipment",3,2
+32,Textile Manufacturing,6,8
+33,"Aerospace & Defense,  Manufacturing",6,5
+34,Higher Education,7,11
+35,Construction,3,13
+36,Computers and Electronics Manufacturing,6,8
+37,Space Research and Technology,3,5
+38,"Retail Health and Personal Care Products,  Cosmetics, Beauty Supply & Personal Care Products,  Personal Products,  Personal Care Products,  Consumer Goods,  Internet Retail,  Manufacturing",3,4
+39,"Entertainment Providers,  Restaurants,  Hospitality",3,6
+40,Aviation & Aerospace,3,0
+41,"Appliances, Electrical, and Electronics Manufacturing,  Photographic & Optical Equipment,  MEMs,  Consumer Goods,  Integrated Circuit And Electronics Technology,  Manufacturing,  Machine Vision,  Software,  Framegrabbers,  Semiconductor,  Wafer Processing,  CMOS,  CCD,  Line Scan,  Application Specific Contracts,  Area Scan,  Image Sensors,  X-ray detectors",3,8
+42,"Appliances, Electrical, and Electronics Manufacturing,  Test & Measurement Equipment,  DDR 3,  Manufacturing,  DDR 4,  PCIE Express,  USB,  Fibre Channel,  SAS/SATA,  FCOE,  Iscsi",6,8
+43,"Appliances, Electrical, and Electronics Manufacturing,  Circuit card assemblies,  Microelectronics packaging solutions,  Mechanical box and backplane assemblies,  Hybrid microcircuits and multichip modules,  Functional testing,  RF microelectronics packaging,  Turnkey material management",3,8
+44,"Technology, Information and Media",4,3
+45,"Cable & Satellite,  Telecommunications",3,0
+46,Satellite Telecommunications,3,0
+47,"Design,  Consumer Electronics & Computers Retail,  Electrical/Electronic Manufacturing,  Retail,  Luxury Goods & Jewelry",3,8
+48,"Medical Practices,  Fitness & Dance Facilities,  Health Care,  Health,  Recreation,  Medicine,  Hospitality,  Telemedicine,  Telehealth,  Wellness,  Apps,  Heathcare,  General Practice,  Heath Tracking,  International Healthcare",3,4
+49,Hospitals and Health Care,3,4
+50,"Retail,  E-Commerce,  Commerce and Shopping,  Fashion,  Clothing and Apparel,  Design,  Web Design",3,13
+51,"Banking,  Financial Software,  Finance,  Other Financial Services",3,10
+52,Furniture and Home Furnishings Manufacturing,6,8
+53,"Technology, Information and Internet",3,3
+54,"Artificial Intelligence,  Software,  Machine Learning,  Software Development,  Business Intelligence (Bi) Software,  Software Development & Design,  Data and Analytics,  Science and Engineering,  Natural Language Processing,  Neuro-Linguistic Programming,  Information Technology,  Data Science,  Sales,  Sales Automation,  Sales and Marketing",5,9
+55,Consumer Services,2,1
+56,"Computer Software,  Telecommunications General,  Internet,  Telecommunications,  Management Consulting,  Retail,  Financial Services,  Construction,  Venture Capital & Private Equity,  Capital Markets",3,10
+57,Banking,3,10
+58,"Movies, Videos and Sound,  Motor Vehicles,  Retail",3,6
+59,Motor Vehicle Manufacturing,6,8
+60,Non-profit Organizations,8,10
+61,Broadcast Media Production and Distribution,4,3
+62,Computer and Network Security,3,5
+63,Events Services,2,12
+64,"Technology, Information and Internet,  Advertising & Marketing,  Global Business Event Directory,  Business Services,  Mobile Device Event Promotion,  Professional and Academic productivity tools,  Seminars, Conferences, Tradeshows, Exhibitions, Webinars",1,12
+65,"Software Development,  Business Intelligence (Bi) Software,  Software,  Event Management,  Event networking,  Software Development & Design,  Events,  Event discovery,  Media and Entertainment,  Mobile apps,  Marketing,  Event promotion,  Sales and Marketing,  Event app,  SaaS,  Business Networking,  Ticketing",1,9
+66,"Computer and Network Security,  Software Development & Design,  Next Generation Threat Protection,  Software,  Advanced Persistent Threats,  Zero-Day Exploits/Malware,  Targeted Attacks,  Network Security,  Incident Response,  Adaptive Defense,  Cybersecurity",5,9
+67,"IT Services and IT Consulting,  Consumer Electronics & Computers Retail,  Consumer Electronics,  Retail,  Hardware,  Cyber Security,  Information Technology,  Privacy and Security,  Electronics",3,5
+68,Industry Associations,3,0
+69,Airlines and Aviation,3,0
+70,Professional Training and Coaching,3,11
+71,"Online Audio and Video Media,  Publishing,  Online Publishing,  Media & Internet",4,3
+72,Public Relations and Communications Services,2,0
+73,"Banking,  Finance,  Financial Services,  Lending and Investments",3,10
+74,"Travel Arrangements,  Travel Agencies & Services,  Tourism,  Consumer Services,  Travel and Tourism,  Travel",3,7
+75,Travel Arrangements,3,7
+76,"Software Development,  Business Intelligence (Bi) Software,  Computer Software,  Software Development & Design,  Linux,  Software",5,9
+77,"Investment Management,  Finance General,  Real Estate Development,  Finance,  Private Equity Real Estate,  Asset Management",3,11
+78,Hospitality,3,6
+79,"Leisure, Travel & Tourism",3,7
+80,"Music,  Multimedia, Games And Graphics Software,  Independent Music,  Publishing,  Software Development & Design,  Media and Entertainment,  Entertainment Software,  Software,  Music and Audio,  Internet,  Internet Services",5,3
+81,"Software,  Software Development,  Multimedia, Games And Graphics Software,  Augmented Reality,  Mobile Apps,  Software Development & Design,  Hardware,  Mobile Gaming,  Location Based Services,  Internet,  Internet Services,  Video Games,  Gaming,  Virtual Reality",5,9
+82,"Retail,  Wall Murals,  Wallpapers,  Canvas Prints,  Custom Wallpapers & Canvas Prints",3,1
+83,"TV,  Entertainment Providers,  Information Collection & Delivery,  Content,  Movies,  Media & Internet,  Media and Entertainment,  Celebs,  Video",4,3
+84,"Art,  Technology, Information and Internet,  Media & Internet General,  Media & Internet,  Media and Entertainment,  Community,  Communities,  Creativity,  Community and Lifestyle,  Sharing,  E-Commerce,  Ideas,  Commerce and Shopping,  Internet,  Internet Services,  Music,  Music and Audio,  News,  Content and Publishing,  Photography,  Social Media",4,3
+85,"Broadcast Media,  Broadcasting,  News,  Media & Internet,  Business News,  Finance News,  Business,  Markets,  Investing,  Technology,  Small Business,  Economy,  Wealth,  Politics,  Europe Business News,  Asia Business News",3,12
+86,"Hospitality,  Lodging & Resorts,  Hotel Management",3,6
+87,"Hospitality,  Lodging & Resorts,  Hotels and Resorts,  Other Restaurants, Hotels and Leisure",3,2
+88,"Software Development,  Consumer Electronics & Computers Retail,  Retail",3,1
+89,"Publishing,  Media & Internet",4,3
+90,"Real Estate,  Commercial Real Estate Brokerage,  Valuation and Advisory,  Investment and Asset Management,  Properrty Research and Consulting,  Project and Development Services",3,11
+91,"Entertainment Providers,  Lodging & Resorts,  Movies, Music and Entertainment,  Entertainment - Cinema & Performance Theatre,  Hospitality,  Real Estate Investment Trusts (REITs),  Hospitality - Hotels, Resorts, Restaurants & Bars,  Resort management,  Cinema Digital Technology",3,6
+92,"Hospitality General,  Hotels and Resorts,  Hospitality,  Leisure Facilities",3,6
+93,"Non-profit Organizations,  Charitable Organizations & Foundations,  Association,  Philanthropy,  Organizations,  Nonprofit,  Foundation",8,10
+94,"Public Relations and Communications Services,  Finance General,  Finance",3,10
+95,"Computer Games,  Business Services General,  Business Services",2,12
+96,"Software,  Software Development,  3D Technology,  Multimedia and Design Software,  3D Modeling,  Software Development & Design,  Hardware,  Architectural Visualization,  Design and Visualization,  Enterprise Software,  Construction and Fabrication Documents,  Information Technology",5,9
+97,"Education,  Education General,  Music Education Advocacy,  Music Education Resources,  Professional Development For Music Teachers,  Public Awareness Campaigns For Music Education,  Music Education",7,11
+98,"Information Technology,  Defense and Space Manufacturing,  Management Consulting,  Data Integration,  Engineering,  Business Services,  Data and Analytics,  Electronics,  Software,  Military,  Security,  Systems Engineering,  Privacy and Security,  Software Engineering,  Contracts,  Supply Chain,  Manufacturing,  Logistics,  Aerospace,  Defense,  Unmanned Systems,  C4Isr,  Cyber,  Cyber Security,  Advanced Electronics,  Directed Energy,  Space",3,5
+99,"Collaboration,  Project Management,  Software,  SaaS,  Software Development,  Software Development & Design,  Business/Productivity Software,  Automation/Workflow Software,  Team Management,  Task Management,  Communication,  Production Tracking",5,9
+100,"Real Estate,  Hotels and Resorts",3,2
+101,"International Trade and Development,  Charitable Organizations & Foundations,  Association,  Organizations,  Leisure,  Community and Lifestyle,  Tourism,  Travel and Tourism,  Travel",8,7
+102,"Marketing Services,  Information Collection & Delivery,  Media & Internet,  Travel Agencies & Services,  Consumer Services",2,3
+103,Hotels and Motels,3,2
+104,"Personal Care Product Manufacturing,  Cosmetics, Beauty Supply & Personal Care Products,  Consumer Goods,  Manufacturing",3,4
+105,"Hospitality,  Hospitality General,  Hotel Discounts | Hotel Loyality Marketing | Sales Management |",3,6
+106,"Hospitality,  Accounting & Accounting Services,  Hotel,  Business Services,  Gaming,  Food Service,  Investment Banking,  Chain Restaurant,  Finance,  Organizational Development,  Executive Search,  Mid-Management Recruitment",3,10
+107,Investment Banking,3,10
+108,Law Practice,3,0
+109,Retail,3,1
+110,Business Consulting and Services,2,12
+111,"Movies, Videos, and Sound",3,6
+112,"Oil and Gas,  Membership Organizations,  American Petroleum Institute,  Organizations,  Oil And Gas Trade Association",8,0
+113,Entertainment Providers,3,6
+114,"Online Media,  Software General,  Software",5,3
+115,Insurance,3,2
+116,Education Administration Programs,7,11
+117,Automation Machinery Manufacturing,6,8
+118,"Airlines and Aviation,  Business Services General,  Business Services",2,12
+119,"Wellness and Fitness Services,  Management Consulting,  Fitness,  Outcomes-Based Wellness,  Business Services,  Sports,  HIPAA compliance,  Health Care,  Health Insurance Law,  Personal Health,  Wellness Regulations For Group Health Plans,  Wellness,  Progress-Based Wellness,  Wellness Consulting,  Participation-Based Wellness",3,4
+120,"E-Learning Providers,  Training,  Education",7,11
+121,"Software Development,  Content & Collaboration Software,  Paid Content,  Software Development & Design,  Newspapers,  Software,  Online Publishing,  Identity And Access Management,  Paywall,  Digital Subscriptions,  Metered Paywall,  Content Monetization,  Saas,  OTT,  Ecommerce,  Broadcast Media,  Magazines,  User segmentation,  User identity management,  User experience management",5,14
+122,Musicians,3,0
+123,"Music,  Musicians,  Flowers, Gifts & Specialty Stores,  Android,  Piano Tutorials,  Retail,  Mobile,  Platforms,  Lessons,  Software,  Entertainment,  iOS,  Education,  Mobile applications,  Mobile Apps,  Apps,  Media and Entertainment,  Music and Audio,  Music Education",3,3
+124,"Fisheries,  Animals & Livestock,  Food and Beverage,  Seafood Processor,  Agriculture,  Internships,  Skilled Trades,  Sales",3,1
+125,"Hospitality,  Financial Services,  Information Technology and Services,  Software,  Venture Capital & Private Equity",2,10
+126,"Hospitality,  Advertising & Marketing,  Business/Productivity Software,  Reservations Solutions,  Business Services,  Media and Information Services (B2B),  Hotel Distribution and Demand Products,  Software Development & Design,  Revenue Management,  Software,  Hotel Business Intelligence,  Media Solutions,  Advertising,  Web Solutions,  Search Engine Optimization,  Guest Management Services",5,12
+127,Embedded Software Products,5,4
+128,"Financial Services,  Mobile Payments,  FinTech,  Payments,  Fintech,  Local Shopping,  Commerce and Shopping,  Payment Processing ,  In-Store Payments,  Mobile,  Mobile App,  Ach,  Software,  Small Business",3,1
+129,Philanthropic Fundraising Services,2,12
+130,Advertising Services,2,12
+131,Mental Health Care,3,4
+132,Marketing Services,2,12
+133,"Technology, Information and Internet,  Internet Service Providers, Website Hosting & Internet-Related Services,  Social/Platform Software,  Service,  Telecommunications,  Social Content,  File Transfers,  People,  Big Files",3,3
+134,Wireless Services,2,12
+135,Chemical Manufacturing,6,8
+136,Computer Hardware,0,8
+137,Spectator Sports,3,0
+138,IT System Custom Software Development,5,9
+139,Environmental Services,2,12
+140,Education,7,11
+141,Human Resources Services,2,12
+142,"IT Services and IT Consulting,  Enterprise Resource Planning (Erp) Software,  PeopleSoft ERP Solutions,  Software Development & Design,  Microsoft Technologies,  Software,  Web-Based technologies,  Business Intelligence (Bi) Software,  Mobile Application Development,  Custom Software & Technical Consulting,  UI/UX Services,  Data Warehousing & BI,  Staffing Solutions,  Cloud Computing,  Testing,  Oracle Services,  Microsoft Dynamics,  Portal Services",5,9
+143,"Software,  IT Services and IT Consulting,  Software General,  Consulting,  Ruby,  Web Development,  Rails,  AngularJS,  Node.JS,  Go,  Python",5,9
+144,"Information Technology and Services,  Business Services General,  Business Services",2,12
+145,Semiconductor Manufacturing,6,8
+146,Professional Services,2,12
+147,"Design,  Software General,  Branded Content,  Software,  Online Media,  Earned Media Optimization,  Social Media,  Conversation Analytics,  Digital Creative,  Consulting,  Mobile",4,3
+148,"Non-profit Organizations,  Membership Organizations,  Organizations",8,0
+149,"Retail,  Retail Apparel and Fashion",3,1
+150,Writing and Editing,3,0
+151,"Insurance,  Insurance Services,  Business Insurance,  Programs,  Property & Casualty Insurance,  Specialty Products,  Corporate Insurance",3,2
+152,Industrial Automation,3,0
+153,"Software Development,  Software",5,9
+154,"Software,  Software Development,  Business Intelligence (Bi) Software,  Analytics,  Search Engine Analysis,  Software Development & Design,  Data and Analytics,  Internet Marketing,  Content Marketing,  Competitive Analysis,  Sales and Marketing,  SEO/SEM,  Digital Marketing,  Market Research,  Design,  SaaS,  Search Engine,  Internet Services,  Semantic Search,  SEO,  Social Media Marketing",5,9
+155,"Content Marketing,  Internet,  Technology, Information and Internet,  Advertising & Marketing,  Advertising,  Business Services,  Sales and Marketing,  Marketing de Conteúdo,  Digital Marketing,  Marketing Digital,  Internet Services,  Marketing,  Marketplace,  Commerce and Shopping,  SaaS,  Software",3,12
+156,Design Services,2,9
+157,"Entertainment Providers,  Hospitality General,  Leisure Facilities,  Hospitality,  Other Commercial Services",3,6
+158,"Software,  Software Development,  Content & Collaboration Software,  Ad Network,  Search,  Software Development & Design,  Advertising,  Ads,  Artificial Intelligence,  Machine Learning,  Mobile,  Data and Analytics,  Android,  Science and Engineering,  Online Video,  Apps,  Blogging Platforms,  Content and Publishing,  Virtual Reality,  Media and Entertainment,  Collaboration,  Email,  Information Technology,  Internet Services,  Messaging and Telecommunications,  Enterprise Software,  Search Engine,  Video Streaming,  Video",5,9
+159,"Software Development,  Information Collection & Delivery,  Innovation,  Media & Internet,  Internet,  Technology,  Advertising,  Media,  Consumer Services,  Search,  User Experience,  Seo,  Online Advertising,  Internet Marketing",4,3
+160,"Broadcast Media Production and Distribution,  Television Stations,  Media,  Broadcasting,  Sports,  Media & Internet",4,3
+161,"Business Services,  Information Technology and Services",2,12
+162,Truck Transportation,3,2
+163,Investment Management,3,11
+164,Pharmaceutical Manufacturing,6,8
+165,"Drug Stores & Pharmacies,  Retail",3,1
+166,"Venture Capital and Private Equity Principals,  Finance General,  Business Development,  Web 2.0,  Finance,  Venture Capital,  Mobile,  Financial Services,  Gaming,  Lending and Investments,  CleanTech,  New Energy,  Semantic,  New Media,  Social Media,  Retail,  Automotive,  Bitcoin,  Internet of Things,  Payment Security,  Connected Home",3,10
+167,Online Media,4,3
+168,Non-profit Organization Management,3,10
+169,"Health, Wellness and Fitness",3,4
+170,"IT Services and IT Consulting,  Consumer Services General,  Information Technology,  Consumer Services,  Internet,  Internet Services,  Software",2,12
+171,Computer Networking Products,3,8
+172,"IT Services and IT Consulting,  Custom Software & Technical Consulting,  Wholesale data center developer,  Software,  Green data centers,  Advanced electrical and mechanical designs,  Dedicated substations",5,5
+173,"Government,  International Affairs,  The United States'​ lead foreign affairs agency,  Government and Military,  Best Places to Work in the Federal Government,  Non Profit,  Careers.State.Gov",3,14
+174,Law Enforcement,3,0
+175,"Book and Periodical Publishing,  Information Collection & Delivery,  EdTech,  Digital Reference Works,  Media & Internet,  Education,  Digital Education Products,  Software,  School Curriculum,  Publishing,  Mobile Educational Apps,  Content and Publishing,  Media and Entertainment",4,3
+176,Online Audio and Video Media,4,3
+177,Wholesale Building Materials,3,0
+178,"Appliances, Electrical, and Electronics Manufacturing,  Electricity, Oil & Gas,  Hardware,  POWER： OPGW, Conductor, Fittings, Power cable,  Energy, Utilities & Waste Treatment,  Telecommunications,  TELECOM： Optical fiber, Optical fiber cable, Radio Frequency cab,  OIL&GAS： Submarine cable,  NEW ENERGY： Lithium battery, Solor backsheet, PV station, Juncti",3,0
+179,"Telecommunications,  Telecommunications General",3,0
+180,Shipbuilding,3,0
+181,Architecture and Planning,3,0
+182,Utilities,3,0
+183,Primary and Secondary Education,7,11
+184,"Education,  Higher Education,  Colleges & Universities,  E-Learning,  Software",7,11
+185,"Education Management,  Colleges & Universities,  Education",7,11
+186,Newspaper Publishing,3,14
+187,"Government Administration,  Cities, Towns & Municipalities General,  Cities, Towns & Municipalities",3,14
+188,"Online Audio and Video Media,  Media & Internet General,  Education,  Language,  Media & Internet,  Mobile,  Learning,  Technology",4,3
+189,"Book and Periodical Publishing,  Media & Internet General,  Media & Internet",4,3
+190,"Publishing,  Book and Periodical Publishing,  Media & Internet,  Content and Publishing,  Media and Entertainment",4,3
+191,Graphic Design,3,9
+192,Civic and Social Organizations,8,10
+193,Photography,3,0
+194,"Computer Software,  Industrial Machinery & Equipment,  Enterprise Asset Management,  Internet,  Manufacturing,  IT/OT Convergence,  Utilities,  Mobile Workforce Management,  Electrical/Electronic Manufacturing,  Energy Markets,  Utilities - Generation, Transmission & Distribution,  Mining,  Outage Lifecycle Management,  Predictive Analytics,  Process Safety Managment,  Asset Performance Management",3,14
+195,Research Services,2,11
+196,"Business Services,  Software Development & Design,  Software",5,9
+197,Wellness and Fitness Services,3,4
+198,"Food and Beverage Services,  Food and Beverage,  Beverages,  Organic Food",3,1
+199,Renewable Energy Power Generation,3,5
+200,Legislative Offices,3,0
+201,"Cities, Towns & Municipalities,  Government Administration,  Education,  Employment Law Enforcement,  Alternative Dispute Resolution,  Government,  Mediation - Alternative Dispute Resolution,  Human Resources,  Government and Military,  Training and Technical Assistance,  Technical Support,  Outreach and Education",7,14
+202,"Government,  Government Administration,  Government and Military,  National Security,  Security,  Privacy and Security",3,14
+203,Semiconductors,3,0
+204,Consumer Electronics,3,8
+205,"Manufacturing General,  Industrial Supplies and Parts,  Manufacturing",6,8
+206,"Hospitality,  Lodging & Resorts,  Distributors/Wholesale,  Travel and Tourism,  Retail,  Commerce and Shopping",3,13
+207,"Higher Education,  Grocery Retail,  Retail",7,11
+208,"Higher Education,  Culinary Arts Degrees,  Culinary Science Degrees,  Baking and Pastry Arts Degrees,  Wine and Beverage Certification,  CIAProChef Certification,  Industry Leadership Conferences,  Research and Development,  Consulting",7,11
+209,Food and Beverage Services,3,1
+210,"Education Management,  Training,  Education and Training Services (B2B),  Culinary Arts,  Education,  Pastry Arts,  Farm To Table® Experience",7,11
+211,Food and Beverage Manufacturing,3,1
+212,"Food and Beverage Services,  Grocery Retail,  Retail",3,1
+213,"Public Policy Offices,  Charitable Organizations & Foundations,  Health,  Organizations,  Climate Change,  Sustainability,  Nutrition",8,0
+214,"Consumer Goods,  Appliances,  Manufacturing",3,8
+215,Machinery Manufacturing,6,8
+216,"Internet Service Providers, Website Hosting & Internet-Related Services,  Telecommunications",3,1
+217,Farming,3,0
+218,"Grocery Retail,  Retail",3,1
+219,"Telecommunications,  Cable & Satellite,  Hosted VoIP,  Vehicle CCTV,  Business Mobiles,  Vehicle Telematics,  Business Energy",3,7
+220,"Consumer Services,  Food, Beverages & Tobacco,  Delivery Service,  Food Products,  Sourcing fresh and organic ingredients,  Manufacturing,  Transportation,  Application Software,  Creating tasty and balanced recipes,  Food and Beverage,  Delivering always for free,  Food Delivery,  Valuing customers'​ feedback,  Subscription Service",3,1
+221,Information Services,2,12
+222,"Movies and Sound Recording,  Broadcasting,  Media & Internet",4,3
+223,"Sporting Goods Manufacturing,  Manufacturing General,  Other Commercial Products,  Manufacturing",6,8
+224,International Affairs,3,0
+225,Armed Forces,3,0
+226,"Textile Manufacturing,  Manufacturing General,  Manufacturing",6,8
+227,Computer Hardware Manufacturing,0,8
+228,Public Policy,3,0
+229,Retail Office Equipment,3,2
+230,"Mental Health Care,  Hospitals & Clinics,  Applied Behavioral Analysis for Autism Spectrum therapy,  Healthcare,  Speech Therapy,  Diagnostic Evaluations,  Psychotherapy,  Occupational Therapy,  Individual Therapy",3,4
+231,Biotechnology Research,3,11
+232,"Higher Education,  Education General,  Education",7,11
+233,"Government Administration,  Commercial & Residential Construction,  Construction",3,13
+234,Retail Health and Personal Care Products,3,4
+235,"Investment Management,  Finance General,  Energy,  Private Equity Capital,  Finance",3,10
+236,"IT Services and IT Consulting,  Information Collection & Delivery,  Real time Big Data,  Media & Internet,  Internet of the things,  Turning machine data into business insights,  Advanced Analytics,  Data visualization,  Compliance,  Monitoring,  Business Intelligence,  Log management,  Geolocation,  Security",3,5
+237,Specialty Trade Contractors,3,0
+238,Transportation/Trucking/Railroad,3,0
+239,Wholesale,3,0
+240,Market Research,3,11
+241,Political Organizations,8,0
+242,Legal Services,2,12
+243,Fabricated Metal Products,3,4
+244,Food Production,3,1
+245,Wholesale Apparel and Sewing Supplies,3,0
+246,Venture Capital and Private Equity Principals,3,10
