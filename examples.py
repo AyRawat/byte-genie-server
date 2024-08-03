@@ -23,22 +23,22 @@ examples = [
               Select event_name from events e JOIN company c ON e.event_url = c.event_url where c.company_industry ilike '%Pharmaceutical%'
      """,
     },
-    # {
-    #     "input": "Find me companies that are attending Oil & Gas related events over the next 12 months",
-    #     "query": """
-    #     SELECT company_name
-    #     FROM company
-    #     WHERE event_url IN (
-    #         SELECT e.event_url
-    #         FROM events AS e
-    #         WHERE e.event_industry ILIKE '%Oil & Gas%'
-    #         AND (
-    #             CAST(e.event_start_date AS DATE) BETWEEN CURRENT_DATE AND CURRENT_DATE + INTERVAL '12 months'
-    #             OR CAST(e.event_end_date AS DATE) BETWEEN CURRENT_DATE AND CURRENT_DATE + INTERVAL '12 months'
-    #         )
-    #     );
-    # """,
-    # },
+    {
+        "input": "Find me companies that are attending Oil & Gas related events over the next 12 months",
+        "query": """
+        SELECT company_name
+        FROM company
+        WHERE event_url IN (
+            SELECT e.event_url
+            FROM events AS e
+            WHERE e.event_industry ILIKE '%Oil & Gas%'
+            AND (
+                CAST(e.event_start_date AS DATE) BETWEEN CURRENT_DATE AND CURRENT_DATE + INTERVAL '12 months'
+                OR CAST(e.event_end_date AS DATE) BETWEEN CURRENT_DATE AND CURRENT_DATE + INTERVAL '12 months'
+            )
+        );
+    """,
+    },
     {
         "input": "Find sales people for companies that are attending events in Singapore in next 9 months",
         "query": """
