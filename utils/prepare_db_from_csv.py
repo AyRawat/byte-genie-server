@@ -2,8 +2,8 @@ import os, sys
 import pandas as pd
 from load_config import LoadConfig
 import pandas as pd
-from sqlalchemy import create_engine, inspect
-
+from sqlalchemy import create_engine, inspect, text
+from normalize_db import normalize_tables
 
 sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 
@@ -46,12 +46,13 @@ class PrepareSQLFromTabularData:
                 df = pd.read_csv(full_file_path)
             else:
                 raise ValueError("The selected file type is not supported")
-            df.to_sql(file_name, self.engine, index=False)
+            df.to_sql(file_name, self.engine, if_exists="replace", index=False)
         print("==============================")
         print("All csv files are saved into the sql database.")
 
     def _normalize_db(self):
         db = self.engine
+        normalize_tables(db)
 
     def _validate_db(self):
         """
@@ -73,4 +74,5 @@ class PrepareSQLFromTabularData:
         to SQL tables and confirming their creation.
         """
         self._prepare_db()
+        self._normalize_db()
         self._validate_db()

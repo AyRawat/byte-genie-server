@@ -5,8 +5,10 @@ import numpy as np
 
 
 def standardize_revenue(revenue):
-    if pd.isna(revenue) or revenue.lower() == "null":
-        return np.nan
+    print("the value of revenue", revenue)
+    if pd.isna(revenue) or revenue == "null" or revenue == "0.0":
+        return 0.0
+    revenue = str(revenue)
     revenue = revenue.replace("$", "").replace(",", "")
     if "billion" in revenue.lower():
         return float(revenue.replace(" billion", "")) * 1000

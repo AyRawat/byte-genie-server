@@ -3,8 +3,9 @@ import numpy as np
 
 
 def standardize_n_employees(value):
-    if pd.isna(value):
-        return np.nan
+    if pd.isna(value) or value == "":
+        return 0
+
     value = str(value)
 
     # Remove unnecessary characters

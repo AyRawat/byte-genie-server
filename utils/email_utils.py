@@ -25,7 +25,7 @@ def generate_email(first_name, last_name, email_pattern, homepage_base_url):
      
     Example: If a person's first_name is john, last_name is doe and the pattern is [first].[last] and URL is test.com, then the email should be john.doe@test.com
     Example 2: If a person's first_name is john, last_name is doe and the pattern is [first_initial].[last] and URL is test.com, then the email should be j.doe@test.com
-    
+    Example 3: If pattern is not provided, then assume the pattern is [first].[last] and URL is test.com, then the email should be john.doe@test.com  
    
     First Name: {first_name}
     Last Name: {last_name}

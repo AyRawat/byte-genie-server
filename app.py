@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin
-from nl2sql import invoke_agent, invoke_chain
+from .nl2sql import invoke_agent
+
 
 app = Flask(__name__)
 app.config["CORS_HEADERS"] = "Content-Type"
