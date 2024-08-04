@@ -86,6 +86,7 @@ pandas==2.2.2
 posthog==3.5.0
 protobuf==4.25.4
 psycopg2==2.9.9
+pysqlite3-binary
 pyasn1==0.6.0
 pyasn1_modules==0.4.0
 pydantic==2.8.2
