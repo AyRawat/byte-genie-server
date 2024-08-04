@@ -67,7 +67,7 @@ chroma-hnswlib==0.7.6
     # via
     #   -r requirements.in
     #   chromadb
-chromadb==0.5.5
+chromadb==0.3.29
     # via -r requirements.in
 click==8.1.7
     # via

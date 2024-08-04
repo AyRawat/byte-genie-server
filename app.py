@@ -1,11 +1,9 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin
 from nl2sql import invoke_agent
+import sqlite3
 
-__import__("pysqlite3")
-import sys
 
-sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 app = Flask(__name__)
 app.config["CORS_HEADERS"] = "Content-Type"
 CORS(app)
