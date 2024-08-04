@@ -92,7 +92,7 @@ curl --location '127.0.0.1:5000/api/query' \
 9. The prompt also specifies that the agent needs to generate the query which is syntactically correct.
 10. The API returns the answer in Natural language.
 
-
+![alt text](screenshots/query-01.png)
 ## Challenges Faced
 1. Due to hardware limitation, I was using openAI's API and they were costing me. So, I did not have unlimited amounts of test requests to test my code. Also, for mapping event function, it was so heavy that every run was costing me around $0.15. So, I had to be very careful.
 2.Mapping industry was the most difficult part. I first had to get unique industries from the company_industry table. Then I had to use my model to identify the industry of the event using event_name and event_overview, at last I chose the relevant industry from the list that I acquired earlier.
