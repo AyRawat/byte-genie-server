@@ -36,10 +36,11 @@ User can interact with the database in natural language.
 ### Data cleaning
 1. For the field n_employee ,that denotes number of employee,  cannot have mull values. So I imputed the null records by 10 for employees, otherwise I took a mean of the range , where it was given and in case of float I kept it as it is. APart from this the format 501 employees, I also converted that to float.
 2. For the field company_revenue, I chose to convert all values into million. and stored in in Float format.
-3. Created an email field using email_pattern . In order to reduce the noise in db. Because either way the column email_pattern was of no use in itself. I had to process the email from it later. 
+3. Created an email field using email_pattern . In order to reduce the noise in db. Because either way the column email_pattern was of no use in itself. I had to process the email from it later. So, after processing the email_pattern can be removed 
+4. For the people who had missing email_pattern , I assumed the default patttern [first].[last]@homepage_base_url
 
 ### Consistency Check
-1. After performing the cleaning on n_employees and revenue the format was consistent. 
+1. After performing the clean up on n_employees and revenue the format was consistent. 
 
 ### Improving Data understanding
 1. Created an event_industry column in event table, that can identify the type of industry based on the event_name and event_overview.
