@@ -81,7 +81,7 @@ def get_example_selector():
         examples,
         OpenAIEmbeddings(),
         Chroma,
-        k=2,
+        k=3,
         input_keys=["input"],
     )
     return example_selector
