@@ -45,9 +45,9 @@ def normalize_people(db):
 
 def normalize_tables(db):
     try:
-        # normalize_company(db)
-        # normalize_people(db)
-        # normalize_events(db)
+        normalize_company(db)
+        normalize_people(db)
+        normalize_events(db)
         normalize_events(db)
 
     except Exception as e:
