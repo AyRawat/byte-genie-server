@@ -17,12 +17,6 @@
 and the server will start at ```127.0.0.1:5000```
 
 
-It will create a file called csv_sqldb.db in the data directory
-
-
-chmod 664 /path/to/your/directory/
-
-
 # Motivation
 User can interact with the database in natural language.
 
