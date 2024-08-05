@@ -9,9 +9,10 @@
 2. Go inside the repo ``` cd byte-genie-server ```
 3. Create a virtual env ``` python3 -m venv:venv```
 4. Activate the virtual env ``` source venv/bin/activate```
-5. Install dependencies ``` pip -r install requirements.txt```
-6. Setup the db ``` python -m prepare_sql_db``` 
-7. Run ```flask --debug run ```
+5. Add a .env file and add these two keys with values inside it ```OPENAI_API_KEY="<REPLACE THIS TEXT WITHYOUR OPENAI API KEY></REPLACE>" \n OPENAI_MODEL_NAME="gpt-3.5-turbo-1106"```
+6. Install dependencies ``` pip -r install requirements.txt```
+7. Setup the db ``` python -m prepare_sql_db``` 
+8. Run ```flask --debug run ```
 
 and the server will start at ```127.0.0.1:5000```
 
